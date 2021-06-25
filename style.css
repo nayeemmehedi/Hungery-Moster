@@ -1,0 +1,49 @@
+body{
+     background-color:rgb(179, 145, 145);
+     background-size: cover;
+     height: 100vh;
+     
+}
+   
+#meal-details{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ; 
+}
+.mealSubDivStyle{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+}
+.mealSubDivStyle img{
+    width: 240px;
+    border-radius: 10px 10px 0px 0px;
+}
+#headerTagStyle{
+    background-color :whitesmoke;
+    border-radius: 0px 0px 10px 10px ;
+    height : 70px;
+    text-align :center;
+}
+
+     
+#clickedHeaderTagStyle{
+    text-align: center;
+    margin-top :10px;
+    font-weight:800;
+}
+.clickedMealDivStyle{
+    padding: 5px;
+    margin: 10px;
+    
+}
+.clickedMealDivStyle img{
+    width :400px;
+    height :230px;
+    border-radius : 20px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+
